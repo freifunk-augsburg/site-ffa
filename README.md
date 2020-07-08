@@ -12,6 +12,7 @@
 Dump
 
 /site/build.sh -d -v -j2
+
     Set GCC_J to 2
     Set GLUON_BRANCH to "experimental"!
     ~/gluon-auto/site ~/gluon-auto
