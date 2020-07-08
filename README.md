@@ -1,6 +1,6 @@
-## Augsburg Babel-Development Version
+# Augsburg Babel-Development Version
 
-###v0.0.1_babel-buggy
+## v0.0.1_babel-buggy
 
     git clone -b christf_next https://github.com/christf/gluon gluon-auto
     cd gluon-auto
@@ -173,7 +173,7 @@ Dump
     Makefile:124: recipe for target 'config' failed
     make: *** [config] Error 1
 
-### v0.0.1_babel-work
+## v0.0.1_babel-work
 Etwas gepatches Gluon, angereichert mit den Configs für Freifunk-Augsburg et viola nach ca. 8 Stunden compiletime habt Ihr im output-Ordner Firmwares liegen
 
     git clone -b christf_next https://github.com/christf/gluon
@@ -183,5 +183,5 @@ Etwas gepatches Gluon, angereichert mit den Configs für Freifunk-Augsburg et vi
     make GLUON_TARGET=ar71xx-generic
 
 
-#### Known Issues
+## Known Issues
 Entwicklerversion. Es ist mehr kaputt als geht.
