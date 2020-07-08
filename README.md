@@ -173,7 +173,7 @@ Dump
     Makefile:124: recipe for target 'config' failed
     make: *** [config] Error 1
 
-###v0.0.1_babel-work
+### v0.0.1_babel-work
 Etwas gepatches Gluon, angereichert mit den Configs für Freifunk-Augsburg et viola nach ca. 8 Stunden compiletime habt Ihr im output-Ordner Firmwares liegen
 
     git clone -b christf_next https://github.com/christf/gluon
