@@ -2,13 +2,9 @@
 
 ### v0.0.1_babel-buggy
   git clone -b christf_next https://github.com/christf/gluon gluon-auto
- 
   cd gluon-auto
-  
   git clone https://github.com/freifunk-augsburg/site-ffa.git site
-  
   make update
-  
   ./site/build.sh -d -v -j2 (-h for help)
 
 
