@@ -178,6 +178,7 @@ Etwas gepatches Gluon, angereichert mit den Configs für Freifunk-Augsburg et vi
 
     git clone -b christf_next https://github.com/christf/gluon
     cd gluon
+    git checkout -b 45b518df11cd4ec93c12ab481b028610a8eaedb2
     git clone https://github.com/freifunk-augsburg/site-ffa.git site
     make update
     make GLUON_TARGET=ar71xx-generic
