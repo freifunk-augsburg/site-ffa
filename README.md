@@ -183,6 +183,20 @@ Etwas gepatches Gluon, angereichert mit den Configs für Freifunk-Augsburg et vi
     make update
     make GLUON_TARGET=ar71xx-generic
 
+## v0.0.2
+Stand-heute (18.12.2020) können Downloads im manuellen Buildprozueß nicht ausgeführt werden und laufen auf einen 404. Daher werden die  benötigten Dateien manuell heruntergeladen und im dl-Ordner bereitgestellt.
+    wget https://dl.ffm.freifunk.net/Gluon-Build-dl-cache/archiv_gluon-dl-cache.tar
+    tar xfv archiv_gluon-dl-cache.tar
+    cp -r ../gluon-dl-cache/ ./dl-cache
+
+Umstellung des Buildprozeß auf den Freifunk-Firmware-Builder (https://github.com/freifunk-ffm/Firmware-Release-Builder)
+
+    Aufruf über:
+    firmware-release-builder.sh -C test -V 0.0.3 -T ar71xx-generic \
+    -k https://github.com/freifunk-augsburg/site-ffa/ \
+    -g https://github.com/christf/gluon -p "-j2" -B christf_next -U master
+
+
 
 ## Known Issues
 Entwicklerversion. Es ist mehr kaputt als geht.
