@@ -30,14 +30,17 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-prefixd \
 	gluon-464xlat-clat  \
 	gluon-ddhcpd \
+	gluon-mesh-vpn-fastd \
 	gluon-mesh-vpn-wireguard
+
+##_ Steini 17.01.2021: Damit auch fastd reinkompiliert wird, muss man's auch reinschreiben, wer hätte das gedacht ;-)
 
 #	nodealert \  # breaks respondd response from yanic?
 #	respondd-module-airtime \
 
 #	ffffm-autoupdater-use-site-conf-branch \
 
-include $(GLUON_SITEDIR)/specific_site.mk 
+include $(GLUON_SITEDIR)/specific_site.mk
 
 
 ifeq ($(GLUON_TARGET),x86-64)
